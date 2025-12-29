@@ -260,6 +260,7 @@ Max DD −213 relative to gains indicates:
 
 ---
 
+
 # 🎯 Final Assignment-Friendly Interpretation Paragraph
 
 You can paste this conclusion directly into your **Section-4 Interpretation / Section-6 Conclusion**:
@@ -267,7 +268,21 @@ You can paste this conclusion directly into your **Section-4 Interpretation / Se
 > Although the underlying Futures–Spot spread for Hindustan Unilever shows strong statistical justification for mean reversion through cointegration, stationarity, and a reasonable half-life, the implemented trading strategy does not generate economically attractive returns. The strategy produces a negative total P&L, a Sharpe ratio below zero, a profit factor of 0.71, and a win rate of 42%, indicating negative expectancy after accounting for realistic market frictions. Drawdowns are meaningful relative to gains, implying poor capital efficiency. Therefore, while the spread exhibits academically valid mean-reverting behavior, the edge is not sufficiently strong or persistent to support a profitable live trading deployment. This conclusion reflects robust, honest quantitative assessment and highlights why disciplined research is more important than forcing profitability.
 
 ---
+# Mean Reversion Properties — Half-Life of Spread Reversion
 
+To quantify how quickly the Futures–Spot spread corrects back to equilibrium following a deviation, we estimate the half-life of mean reversion. The half-life represents the expected number of trading days required for a deviation in the spread to decay to half of its magnitude. In other words, it measures the strength and speed of the mean-reverting force in the spread process.
+
+Methodology
+
+Since the Engle–Granger test confirmed that the Futures and Spot series are cointegrated and the Augmented Dickey–Fuller (ADF) test confirmed the stationarity of the spread, it is appropriate to model the spread as a mean-reverting process. Following standard academic and industry convention, we approximate the spread dynamics using an AR(1) representation:
+
+                                        St​=a+ϕSt−1​+ϵt​
+where 𝑆𝑡 is the spread at time t, and 𝜙 represents the persistence of deviations.
+The half-life of mean reversion is then computed as:
+                                HL=−ln(ϕ)ln(2)​
+If the spread is strongly mean-reverting, 
+𝜙 will be significantly below 1, resulting in a shorter half-life. Conversely, values of 
+𝜙 close to 1 imply weak mean reversion and a much slower convergence.
 
 
 ---
