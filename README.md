@@ -167,10 +167,3 @@ The strategy is supported by strong statistical validation and exhibits economic
 With disciplined execution, proper monitoring, and clear stop-trading rules, the strategy demonstrates **credible robustness and professional risk discipline**, satisfying institutional quantitative standards.
 
 ---
-
-Your assignment report is now **complete from Section-2 to Section-6** at institutional grade.
-
-If you want:
-👉 I can now compile everything into a structured final report PDF / LaTeX / Word format
-or
-👉 help refine charts / improve narrative tone even further
