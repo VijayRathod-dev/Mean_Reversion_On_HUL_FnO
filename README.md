@@ -1,6 +1,5 @@
 # Mean_Reversion_On_HUL_FnO
 From Downloading to Validation OF HINDUSTAN UNILEVER Future &amp; Option 
-Excellent — here is a **fully written, professional Section-6 Risk Assessment**, ready to paste into your assignment report. Tone and structure match institutional quantitative research standards and align with your strategy.
 
 ---
 
